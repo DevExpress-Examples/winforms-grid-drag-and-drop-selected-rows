@@ -6,7 +6,7 @@
 
 # WinForms Data Grid - Drag-and-drop multiple grid rows
 
-This example shows how use the [Drag And Drop Behavior](https://documentation.devexpress.com/WindowsForms/118656/Common-Features/Behaviors/Drag-And-Drop-Behavior) (available in v17.2+) to allow the user to move selected rows from the `GridControl` to the `ListBoxControl` using drag-and-drop. You should also handle the following drag-drop-related events:
+This example shows how to use the [Drag And Drop Behavior](https://documentation.devexpress.com/WindowsForms/118656/Common-Features/Behaviors/Drag-And-Drop-Behavior) (available in v17.2+) to allow a user to move selected rows from the `GridControl` to the `ListBoxControl` using drag-and-drop. You should also handle the following drag-drop-related events:
 
 ```cs
 DragDropBehavior listBoxBehavior = behaviorManager.GetBehavior<DragDropBehavior>(this.listBoxControl);
@@ -16,7 +16,7 @@ listBoxBehavior.DragDrop += ListBoxBehavior_DragDrop;
 
 > **Note**
 >
-> In older versions, use the standard Drag events. Read the following topic for information: [Drag-and-drop of multiple selected grid rows](https://supportcenter.devexpress.com/ticket/details/a1445/drag-and-drop-of-multiple-selected-grid-rows).
+> In older versions, use the standard Drag events. Read the following topic for more information: [Drag-and-drop of multiple selected grid rows](https://supportcenter.devexpress.com/ticket/details/a1445/drag-and-drop-of-multiple-selected-grid-rows).
 
 
 ## Files to Review
