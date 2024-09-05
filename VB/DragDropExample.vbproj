@@ -26,6 +26,8 @@
     </StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
